@@ -1,6 +1,8 @@
-def roll_call_dwarves(dwarfs)
-  dwarfs.each_with_index {|lil_ppl, placement| puts "#{placement + 1}. #{lil_ppl}"}
+def roll_call_dwarves(dwarves)
+  count = 0
+  dwarves.each {|names| puts "#{count+=1}. #{names}"}
 end
+
 
 def summon_captain_planet(super_powers)
   super_powers.map {|power| "#{power.capitalize}!"}
@@ -10,7 +12,6 @@ def long_planeteer_calls(words)
   words.any? {|word| word.size > 4}
 end
 
-ingredients = ["cheddar", "bacon"];
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #first find index of each cheese
