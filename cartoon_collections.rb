@@ -20,7 +20,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
 
-#   
+#
 #   cheese_types = ["cheddar", "gouda", "camembert"]
 #   #first find index of each cheese
 #   cheddar_index = ingredients.index(cheese_types[0])
@@ -30,7 +30,7 @@ end
 #   if cheddar_index.nil? && gouda_index.nil? && camembert_index.nil?
 #     return nil
 #   end
-# 
+#
 #   lowest_index = ingredients.size
 #   answer = nil
 #   if cheddar_index.nil? == false && lowest_index > cheddar_index
@@ -45,6 +45,6 @@ end
 #     lowest_index = camembert_index
 #     answer = "camembert"
 #   end
-# 
+#
 #   return answer
 # end
